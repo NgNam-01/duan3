@@ -1,0 +1,12 @@
+.thumbnail img {
+    height: 200px !important;
+    max-width: 95% !important;
+}
+
+.name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
